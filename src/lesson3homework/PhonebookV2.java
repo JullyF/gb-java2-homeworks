@@ -16,7 +16,8 @@ public class PhonebookV2 {
         for (Organization organization : phonebook) {
             if ((organization.getName()).equals(organizationName)) {
                 System.out.println(organization);
-            } //Тут можно сделать исключение, если не найдено. Или методом обыграть, например, возвращать boolean.
+            } //Тут можно сделать исключение, если не найдено.
+            // Или методом обыграть, например, возвращать boolean. Или просто else: "Не найдено!"
         }
     }
 
